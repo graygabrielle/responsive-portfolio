@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./Assets/CSS/reset.css" type="text/css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav">
+
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#cccccc" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke="#cccccc" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke="#cccccc" stroke-width="5" />
+                    </svg>
+                </a>
+            </span>
+
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="./index.html">About</a>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./contact.html">Contact</a>
+            </div>
+        </div>
+
+        <header>
+            <div>
+                <h1>
+                    Gray Atkinson-Adams
+                </h1>
+                <ul>
+                    <li><a href="./index.html">About</a></li>
+                    <li id="border"><a href="./portfolio.html">Portfolio</a></li>
+                    <li id="contact"><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="main-box">
+            <h1>Contact</h1>
+            <form class="form">
+                <div>
+                    <label for="fl-name">Name</label>
+                    <input type="text" id="fl-name" name="name" placeholder="First and last..." required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Email moi" required>
+                </div>
+                <div>
+                    <label for="msg">Message</label>
+                    <textarea id="msg" name="message" placeholder="Write something nice.." required></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <h6>Copyright &copy;</h6>
+    </footer>
+
+    <!-- javascript for side nav -->
+
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '200px';
+        }
+
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+        }
+    </script>
+
+</body>
+
+</html>
