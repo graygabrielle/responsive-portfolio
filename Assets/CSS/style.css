@@ -133,7 +133,8 @@ footer h6 {
     text-align: center;
     color: white;
     font-size: .75em;
-    padding-top: 30px;
+    padding-top: 20px;
+
 }
 
 
@@ -249,54 +250,7 @@ input[type=text], select, textarea {
   
 }
 
-/* hamburger menu styling */
 
-.nav {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    z-index: 1;
-    padding: 5px;
-
-}
-
-.side-nav{
-    height:100%;
-    width:0;
-    position:fixed;
-    z-index:1;
-    top:0;
-    left:0;
-    background-color:#4aaaa5;
-    opacity:0.75;
-    overflow-x: hidden;
-    padding-top: 75px;
-    transition: 0.5s;
-}
-
-.side-nav a {
-    padding:10px 10px 10px 30px;
-    text-decoration: none;
-    font-size: 22px;
-    color:white;
-    display: block;
-    transition: 0.5s;
-
-}
-
-.side-nav a:hover{
-    color:rgb(157, 193, 202);
-
-}
-
-.side-nav .btn-close {
-    position: absolute;
-    top:0;
-    right: 0;
-    font-size: 36px;
-    margin-left:50px;
-    color: black;
-}
 
 /* media queries for the nav bar and side nav */
 
@@ -347,7 +301,7 @@ input[type=text], select, textarea {
         width: 100%;
         margin: 0;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.5em;
 
     }
 
@@ -383,7 +337,7 @@ input[type=text], select, textarea {
 
     .main-box h1 {
         text-align: left;
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
 }
