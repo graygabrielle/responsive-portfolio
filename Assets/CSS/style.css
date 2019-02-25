@@ -254,7 +254,7 @@ input[type=text], select, textarea {
 
 /* media queries for the nav bar and side nav */
 
-@media(max-width:640px){
+@media only screen and (max-width:640px){
 
     ul {
         display:none;
@@ -299,7 +299,7 @@ input[type=text], select, textarea {
     header h1 {
         white-space: nowrap;
         width: 100%;
-        margin: 0 !important;
+        margin: 0;
         text-align: center;
         font-size: 1.5em;
 
@@ -342,7 +342,7 @@ input[type=text], select, textarea {
 
 }
 
-    @media(max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
 
         header h1 {
             margin-right: 5%;
@@ -358,19 +358,28 @@ input[type=text], select, textarea {
             margin-right: 5%;
         }
 
+        .main-box {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+
   }
 
-  /* @media(max-width: 980px) {
+  @media (min-width: 769px) {
+
     .main-box {
-        margin-left: 5%;
-        width: 50vw;
+
+        margin: 0 10%;
+        margin-top: 3vh;
+        padding: 0 30px;
+    
     }
 
+    header h1 {
+        margin-left: 10%;
+    }
+    
     ul {
-      margin-right: 3%;
-  }
-
-  header div {
-      margin: 0 5%;
-  }
-} */
+        margin-right: 10%;
+    }
+}
