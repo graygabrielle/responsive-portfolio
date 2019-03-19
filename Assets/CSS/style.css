@@ -211,29 +211,36 @@ input[type=text], select, textarea {
     background-position: center center;
     background-repeat: none;
     background-size: cover;
-    height: 170px;
-    width: 170px;
+    height: 150px;
+    width: 250px;
+    margin-bottom: 20px;
+    border: 2px solid #4aaaa5;
+
 
 }
 
 .card1 {    
-    background-image: url("https://source.unsplash.com/random/170x500");
+    background-image: url("../img/word-guessing-game.png");
 }
 
 .card2 {    
-    background-image: url("https://source.unsplash.com/random/170x501");
+    background-image: url("../img/crystal-collector.png");
 }
 
 .card3 {    
-    background-image: url("https://source.unsplash.com/random/170x502");
+    background-image: url("../img/trivia-game.png");
 }
 
 .card4 {    
-    background-image: url("https://source.unsplash.com/random/170x503");
+    background-image: url("../img/giftastic.png");
 }
 
 .card5 {    
-    background-image: url("https://source.unsplash.com/random/170x504");
+    background-image: url("../img/train-scheduler.png");
+}
+
+.card6 {    
+    background-image: url("../img/curate\(ss\).png");
 }
 
 
@@ -244,7 +251,7 @@ input[type=text], select, textarea {
     width: 100%;
     text-align: center;
     position: relative;
-    top: 130px;
+    top: 100px;
     line-height: 200%;
     font-size: 1em;
   
