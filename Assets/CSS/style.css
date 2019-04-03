@@ -246,6 +246,10 @@ input[type=text], select, textarea {
     background-image: url("../img/liri-node-app.png");
 }
 
+.card8 {    
+    background-image: url("../img/bamazon.png");
+}
+
 
 
 .card h2 {
