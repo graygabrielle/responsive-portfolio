@@ -250,6 +250,10 @@ input[type=text], select, textarea {
     background-image: url("../img/bamazon.png");
 }
 
+.card9 {    
+    background-image: url("../img/friend-finder.png");
+}
+
 
 
 .card h2 {
